@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SYSTEM V2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="bootScreen">
+  <p id="bootText"></p>
+</div>
+
+<div id="app" class="hidden">
+  <h1>PLAYER SYSTEM</h1>
+
+  <div id="rank">Rank: E</div>
+  <div id="xp">XP: 0</div>
+
+  <div id="stats">
+    <div>Strength: <span id="strength">0</span></div>
+    <div>Stamina: <span id="stamina">0</span></div>
+    <div>Intelligence: <span id="intelligence">0</span></div>
+    <div>Focus: <span id="focus">0</span></div>
+    <div>Discipline: <span id="discipline">0</span></div>
+    <div>Consistency: <span id="consistency">0</span></div>
+  </div>
+
+  <h2>Daily Quests</h2>
+  <div id="quests"></div>
+
+  <button onclick="addCustomTask()">+ Add Task</button>
+
+  <div id="notification"></div>
+
+  <div id="penalty" class="hidden">
+    <h2>⚠ PENALTY MODE ⚠</h2>
+    <p id="penaltyTask"></p>
+    <button onclick="completePenalty()">Complete Penalty</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
