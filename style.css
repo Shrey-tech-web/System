@@ -1,0 +1,45 @@
+body {
+  background: #0a0b10;
+  color: #00eaff;
+  font-family: monospace;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#bootScreen {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glow {
+  text-shadow: 0 0 10px #00eaff, 0 0 20px #8a2be2;
+}
+
+button {
+  background: transparent;
+  border: 1px solid #00eaff;
+  color: #00eaff;
+  padding: 10px;
+  margin: 5px;
+}
+
+button:hover {
+  background: #00eaff;
+  color: black;
+}
+
+#notification {
+  margin-top: 20px;
+  color: #8a2be2;
+}
+
+#penalty {
+  background: red;
+  color: white;
+  padding: 20px;
+  }
